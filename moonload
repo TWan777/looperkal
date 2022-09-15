@@ -1,0 +1,18 @@
+{
+    "Lua.runtime.version": "LuaJIT",
+    "Lua.runtime.path": [
+        "lib/?.lua",
+        "lib/?/init.lua",
+        "libstd/?.lua",
+        "libstd/?/init.lua"
+    ],
+    "Lua.workspace.ignoreDir": [
+        "**",
+        "!lib/",
+        "!libstd/"
+    ],
+    "Lua.diagnostics.disable": [
+        "lowercase-global",
+        "undefined-global"
+    ]
+}
